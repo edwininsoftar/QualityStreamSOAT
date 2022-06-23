@@ -7,4 +7,7 @@ public class LocatorsSoat {
 	public static final By LOCATOR_TYPE_DOCUMENT = By.id("mat-select-2");
 	public static final By LOCATOR_DOCUMENT = By.id("documentID");
 	public static final By LOCATOR_EMAIL = By.xpath("//*[@id=\"home-quotation-div\"]/div[2]/div/div[2]/form/div[3]/input");
+	public static final By LOCATOR_BUTTON_QUOTE = By.xpath("//*[@id=\"btnQuotationHome\"]/button");
+	public static final By LOCATOR_ACCEPT_POLICIES = By.xpath("//*[@id=\"termscondition\"]");
+	public static final By LOCATOR_BUTTON_PAY = By.xpath("/html/body/app-root/app-quotation-data/app-btn-quotation/div/button");
 }

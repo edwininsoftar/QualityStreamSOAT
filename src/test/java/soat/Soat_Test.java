@@ -25,7 +25,8 @@ public class Soat_Test {
 
 	@Test
 	public void test() {
-		soatPage.quote(BasicData.PLATE, BasicData.DOCUMENT_CC);
+		soatPage.quote(BasicData.PLATE, BasicData.TYPE_DOCUMENT_CC, BasicData.DOCUMENT_CC);
+		soatPage.ownerDetails();
 	}
 
 }
